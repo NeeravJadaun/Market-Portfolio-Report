@@ -1,0 +1,135 @@
+{
+  "sources": [
+    "prices",
+    "boc_valet",
+    "boc_2026_09_02",
+    "fed_2026_09_16",
+    "fomc_calendar"
+  ],
+  "expects": {
+    "port_return": "neg",
+    "eq_contrib": "neg",
+    "fi_contrib": "neg",
+    "fx_change": "pos",
+    "y2_change": "pos",
+    "y10_change": "pos",
+    "ret_XIC": "neg",
+    "ret_XUU": "pos",
+    "ret_XEC": "pos",
+    "ret_XEF": "neg",
+    "ret_XBB": "neg",
+    "ret_XSB": "neg",
+    "ret_XHY": "neg",
+    "decision": "Maintain",
+    "active_return": "neg"
+  },
+  "quotes": [
+    [
+      "fed_2026_09_16",
+      "12 – 0 vote"
+    ],
+    [
+      "fed_2026_09_16",
+      "to 3-3/4 to 4 percent"
+    ],
+    [
+      "boc_2026_09_02",
+      "Financial conditions have tightened since July"
+    ],
+    [
+      "boc_2026_09_02",
+      "Long-term bond yields have moved up globally, including in Canada"
+    ],
+    [
+      "boc_2026_09_02",
+      "is prepared to adjust monetary policy as needed"
+    ],
+    [
+      "boc_2026_09_02",
+      "new tariffs make growth prospects more uncertain"
+    ],
+    [
+      "boc_2026_09_02",
+      "breakdown of trade talks"
+    ],
+    [
+      "boc_2026_09_02",
+      "next scheduled date for announcing the overnight rate target is October 28, 2026"
+    ],
+    [
+      "fomc_calendar",
+      "October 27-28"
+    ],
+    [
+      "vanguard_vbal",
+      "equity (approximately 60%) and fixed income (approximately 40%)"
+    ]
+  ],
+  "headline": "Rising rates hit bonds and credit, and the balanced mix lost {port_abs} in September",
+  "takeaway_fact": "The hypothetical portfolio returned {port} against {bench} for the benchmark, a difference of {active}. The bond sleeve returned {fi_sleeve} and subtracted {fi_contrib_abs}, about {fi_share} of the decline. The equity sleeve returned {eq_sleeve}: US and emerging-market gains offset losses in Canada. [prices]",
+  "takeaway_view": "Canadian stocks and bonds both fell, so the domestic cushion was missing. Holdings outside Canada, and a weaker Canadian dollar, kept the loss small.",
+  "overview_note": "Total and price returns of ETF proxies, CAD. Yields and USD/CAD: Bank of Canada, latest value {macro_asof} (Sep 30 was a federal holiday). [prices][boc_valet]",
+  "theme_title": "Theme: rates repriced higher and bonds paid for it",
+  "theme_evidence": [
+    "The Federal Reserve raised its target range by 1/4 point to 3-3/4 to 4 percent on September 16, in a 12 to 0 vote. [fed_2026_09_16]",
+    "On September 2 the Bank of Canada held at {policy}%, saying financial conditions had tightened since July and long-term yields had moved up globally, including in Canada. [boc_2026_09_02]",
+    "Canada's 2-year yield rose {y2_chg} to {y2_1}% and the 10-year {y10_chg} to {y10_1}% (latest {macro_asof}). In CAD, XBB returned {ret_XBB}, XSB {ret_XSB} and XHY {ret_XHY}. [boc_valet][prices]"
+  ],
+  "theme_view": "Rising yields lower the price of existing bonds. The broad index fell more than the short-term fund and the lowest-quality bonds fell most, which fits that mechanism. XIC fell too ({ret_XIC}), so the Canadian stock-bond pair gave no offset, while XUU returned {ret_XUU} as USD/CAD rose {fx_chg}. The sources describe these moves but do not isolate causes.",
+  "equity_view": "US ({ret_XUU}) and emerging markets ({ret_XEC}) rose; Canada ({ret_XIC}) and developed international ({ret_XEF}) fell. The sleeve ended at {eq_end_w} of the portfolio, {eq_drift} above target.",
+  "fi_view": "The sleeve returned {fi_sleeve} and subtracted {fi_contrib_abs}. Shorter maturities held up better, consistent with lower rate sensitivity. [prices]",
+  "rebalance": "Maintain. The largest holding drift is {max_hold_drift} (band {hold_band}); the largest sleeve drift is {max_class_drift} (band {class_band}). No trade triggers, so drifted weights carry into October. A reset would trade {turnover} of the portfolio.",
+  "counter": "For acting: the Federal Reserve is tightening; moving part of XBB into XSB would lower rate sensitivity. For patience: drift is inside the bands, and selling bonds after a decline locks in the loss without evidence of where yields go next.",
+  "risks": [
+    "Rates: the Bank of Canada sees higher upside risk to inflation. [boc_2026_09_02]",
+    "Trade: new US tariffs and Canadian counter-measures. [boc_2026_09_02]",
+    "Credit: XHY fell {ret_XHY}; a currency reversal would trim foreign equity."
+  ],
+  "monitor": [
+    [
+      "Bank of Canada and MPR, Oct 28",
+      "[boc_2026_09_02]"
+    ],
+    [
+      "FOMC, Oct 27-28",
+      "[fed_2026_09_16][fomc_calendar]"
+    ],
+    [
+      "Canada yields and USD/CAD",
+      "[boc_valet]"
+    ]
+  ],
+  "methodology": "Total return: closing prices, distributions reinvested at the ex-date close, net of fund expenses. Beginning weights are August's drifted weights (decision: Maintain). Contribution is weight times return, not formal attribution. Foreign-market ETFs are CAD-listed, so no currency conversion is applied.",
+  "slides": {
+    "s1_title": "Rising rates hit bonds and credit in September",
+    "s1_bullets": [
+      "Portfolio {port} versus benchmark {bench}, a difference of {active}",
+      "Bonds subtracted {fi_contrib_abs}; equities were flat at {eq_contrib}",
+      "Theme: Fed raised to 3-3/4 to 4 percent; Canada 2-year yield {y2_chg}"
+    ],
+    "s2_title": "Implications: maintain weights, drift is inside the bands",
+    "s2_bullets": [
+      "Equity: US {ret_XUU} and emerging {ret_XEC} rose; Canada {ret_XIC} fell",
+      "Fixed income: sleeve {fi_sleeve}; short-term bonds fell less than the broad fund",
+      "Decision: Maintain. Largest drift {max_hold_drift} against a {hold_band} band"
+    ],
+    "s3_title": "Risks and what to monitor",
+    "s3_risks": [
+      "More yield increases would extend bond losses",
+      "US tariffs and counter-measures cloud growth",
+      "Credit weakness: XHY {ret_XHY}",
+      "Currency reversal on foreign equity"
+    ],
+    "s3_monitor": [
+      "Bank of Canada and MPR, Oct 28",
+      "FOMC, Oct 27-28",
+      "Canada yields and USD/CAD",
+      "XHY and credit conditions"
+    ],
+    "notes": [
+      "Main message. In September 2026 the hypothetical 60/40 portfolio returned {port} in Canadian dollars and the benchmark returned {bench}. Bonds subtracted {fi_contrib_abs}, about {fi_share} of the decline, while equities were roughly flat because US and emerging-market gains offset losses in Canada and developed international markets. The theme is rates: the Fed raised its range to 3-3/4 to 4 percent on September 16 and Canada's 2-year yield rose {y2_chg}. Bank of Canada series end on {macro_asof} because September 30 was a federal holiday. For a client: higher yields pushed bond prices down, and Canadian stocks fell as well.",
+      "Portfolio implications. The equity sleeve was flat but dispersion was wide. The bond sleeve fell {fi_sleeve}, and the short-term fund held up better than the broad index. The illustrative rule says maintain: the largest drift is {max_hold_drift}, inside the {hold_band} band, and a reset would trade {turnover} of the portfolio. Weights this month began from August's drifted weights because August's decision was Maintain. This illustrates a rule, not advice for any client.",
+      "Risks and monitoring. More yield increases would extend bond losses; the Bank of Canada says upside inflation risks increased and tariffs add uncertainty to growth. XHY fell {ret_XHY}, a reminder that credit can weaken with equities. Next events: the Bank of Canada decision and Monetary Policy Report on October 28 and the FOMC meeting on October 27 and 28. The counterargument is to shorten bond duration now; the case for patience is that drift is small and selling after a decline locks in the loss."
+    ]
+  }
+}

@@ -1,0 +1,520 @@
+{
+  "2026-08": {
+    "cutoff": "2026-08-31",
+    "entries": [
+      {
+        "id": "prices:XIC.TO",
+        "file": "prices/XIC.TO.json",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XIC.TO?period1=1784419200&period2=1788220800&interval=1d&events=div%7Csplit",
+        "kind": "prices",
+        "window": [
+          "2026-07-31",
+          "2026-08-31"
+        ],
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256": "ae60a5d14e66e7eed24f72ffe34fe21a4168667fde3f767d3047aaefc2288ec0"
+      },
+      {
+        "id": "prices:XUU.TO",
+        "file": "prices/XUU.TO.json",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XUU.TO?period1=1784419200&period2=1788220800&interval=1d&events=div%7Csplit",
+        "kind": "prices",
+        "window": [
+          "2026-07-31",
+          "2026-08-31"
+        ],
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256": "efbf692783824bc8b6ecb19df330d97839587e5d82d28f3677fc5d1eaeb8620c"
+      },
+      {
+        "id": "prices:XEF.TO",
+        "file": "prices/XEF.TO.json",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XEF.TO?period1=1784419200&period2=1788220800&interval=1d&events=div%7Csplit",
+        "kind": "prices",
+        "window": [
+          "2026-07-31",
+          "2026-08-31"
+        ],
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256": "430b8c5f2aff33e0d40f1724c7ff4bf4285f9980e5a1fa597e200ae4275478b8"
+      },
+      {
+        "id": "prices:XEC.TO",
+        "file": "prices/XEC.TO.json",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XEC.TO?period1=1784419200&period2=1788220800&interval=1d&events=div%7Csplit",
+        "kind": "prices",
+        "window": [
+          "2026-07-31",
+          "2026-08-31"
+        ],
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256": "73a1b3c5865a06195c24879211344cbc253f8436b921242911f6da565b4d1ab9"
+      },
+      {
+        "id": "prices:XBB.TO",
+        "file": "prices/XBB.TO.json",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XBB.TO?period1=1784419200&period2=1788220800&interval=1d&events=div%7Csplit",
+        "kind": "prices",
+        "window": [
+          "2026-07-31",
+          "2026-08-31"
+        ],
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256": "7400ce688e7e9789eabf1b785fccdae434ce27b8835ce16b67cc15dc0afa6991"
+      },
+      {
+        "id": "prices:XSB.TO",
+        "file": "prices/XSB.TO.json",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XSB.TO?period1=1784419200&period2=1788220800&interval=1d&events=div%7Csplit",
+        "kind": "prices",
+        "window": [
+          "2026-07-31",
+          "2026-08-31"
+        ],
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256": "d136ec672ebb9d53d1243850c9f57c557f0d6e357d115f24e42c9e835714fb6d"
+      },
+      {
+        "id": "prices:XHY.TO",
+        "file": "prices/XHY.TO.json",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XHY.TO?period1=1784419200&period2=1788220800&interval=1d&events=div%7Csplit",
+        "kind": "prices",
+        "window": [
+          "2026-07-31",
+          "2026-08-31"
+        ],
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256": "bf22c7757ada484158df5388031ce8e54ef305392cae69e605a12967785442b8"
+      },
+      {
+        "id": "prices:VBAL.TO",
+        "file": "prices/VBAL.TO.json",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/VBAL.TO?period1=1784419200&period2=1788220800&interval=1d&events=div%7Csplit",
+        "kind": "prices",
+        "window": [
+          "2026-07-31",
+          "2026-08-31"
+        ],
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256": "9e80b3fb5a9c32b6de74ec1a34dcc20b528fe43aa825ac44a68cfaa02d4c66a5"
+      },
+      {
+        "id": "macro:FXUSDCAD",
+        "file": "macro/FXUSDCAD.json",
+        "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2026-07-21&end_date=2026-08-31",
+        "kind": "macro",
+        "window": [
+          "2026-07-31",
+          "2026-08-31"
+        ],
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256": "9bfae10dad9c0bfaf16475727f52e2d71bdd4b72b69519322fba363eaf22ed9e"
+      },
+      {
+        "id": "macro:BD.CDN.2YR.DQ.YLD",
+        "file": "macro/BD.CDN.2YR.DQ.YLD.json",
+        "url": "https://www.bankofcanada.ca/valet/observations/BD.CDN.2YR.DQ.YLD/json?start_date=2026-07-21&end_date=2026-08-31",
+        "kind": "macro",
+        "window": [
+          "2026-07-31",
+          "2026-08-31"
+        ],
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256": "97910cf6cdb63cbe1bf9568f02b097b6c041bf1a1f91292d88403f9402d19b76"
+      },
+      {
+        "id": "macro:BD.CDN.10YR.DQ.YLD",
+        "file": "macro/BD.CDN.10YR.DQ.YLD.json",
+        "url": "https://www.bankofcanada.ca/valet/observations/BD.CDN.10YR.DQ.YLD/json?start_date=2026-07-21&end_date=2026-08-31",
+        "kind": "macro",
+        "window": [
+          "2026-07-31",
+          "2026-08-31"
+        ],
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256": "6545c46169e3165440fb34727f1d15bcc4e0a48519e5c432a9eda9b7e507a4e4"
+      },
+      {
+        "id": "macro:V39079",
+        "file": "macro/V39079.json",
+        "url": "https://www.bankofcanada.ca/valet/observations/V39079/json?start_date=2026-07-21&end_date=2026-08-31",
+        "kind": "macro",
+        "window": [
+          "2026-07-31",
+          "2026-08-31"
+        ],
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256": "d360568be6fb8029facaeddc64eabea205a82ba0ef2e9bb6d1d1f2cc9f5df733"
+      },
+      {
+        "id": "doc:boc_2026_07_15",
+        "file": "docs/boc_2026_07_15.txt",
+        "url": "https://www.bankofcanada.ca/2026/07/fad-press-release-2026-07-15/",
+        "kind": "document",
+        "publication_date": "2026-07-15",
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256_raw_page": "960b19cb1907bdf590d3a874120d7309bb7a1331219f8c19908d921da2a2f66c",
+        "sha256_extract": "d640c33b3a12a7292df8274b0b7b80e430c8175fdb4ee4e24c1d331bf5da657c"
+      },
+      {
+        "id": "doc:fed_2026_07_29",
+        "file": "docs/fed_2026_07_29.txt",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+        "kind": "document",
+        "publication_date": "2026-07-29",
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256_raw_page": "11e0fe2652ac83ca15b08a01dc6c8c0e95a38aab2e3b7db02b415745a6ae231c",
+        "sha256_extract": "6a7fae2acc8d8f7d7352d37ac2b1f322d371920aed32ee18c154a46f43f2b961"
+      },
+      {
+        "id": "doc:fomc_calendar",
+        "file": "docs/fomc_calendar.txt",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+        "kind": "document",
+        "publication_date": null,
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256_raw_page": "5607e84ad4d127a9df7dc7ad4ed7c8aafbcba94acd7d1f690884a907d75d06c3",
+        "sha256_extract": "691e7e5f64d9732b23ba36ee2158d4e785f1e4c9c6e070bfacb83f94261cac69"
+      },
+      {
+        "id": "doc:ishares_xic",
+        "file": "docs/ishares_xic.txt",
+        "url": "https://www.blackrock.com/ca/investors/en/products/239837/ishares-sp-tsx-capped-composite-index-etf",
+        "kind": "document",
+        "publication_date": null,
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256_raw_page": "38e3e294b3736bae53cdcb915d178741ed51ffb9bd21d2177492a09f2cbfe929",
+        "sha256_extract": "0ca9e5af5ce3bda137ef24362f3f37419bc4f5c7151a6edbfb1876179ab837cb"
+      },
+      {
+        "id": "doc:ishares_xuu",
+        "file": "docs/ishares_xuu.txt",
+        "url": "https://www.blackrock.com/ca/investors/en/products/272104/ishares-core-sp-us-total-market-index-etf",
+        "kind": "document",
+        "publication_date": null,
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256_raw_page": "8ce3ddf05472b0a13dbf4b6289fb410fd8e8864b4db229ccdf22a419c7c282ed",
+        "sha256_extract": "4f6a4e00768114186af72b9e46b5d207d89e7890e7262d79b44dad062a3a9587"
+      },
+      {
+        "id": "doc:ishares_xef",
+        "file": "docs/ishares_xef.txt",
+        "url": "https://www.blackrock.com/ca/investors/en/products/251421/ishares-msci-eafe-imi-index-etf",
+        "kind": "document",
+        "publication_date": null,
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256_raw_page": "164daf2fc9b5ed60373c6efd5b903a9150d24aa3263a5580be1932f7380ad10c",
+        "sha256_extract": "e852218e6a7f1e3a059c7b29805374dbaafc0aea70e618c2956ac7c75fad02cb"
+      },
+      {
+        "id": "doc:ishares_xec",
+        "file": "docs/ishares_xec.txt",
+        "url": "https://www.blackrock.com/ca/investors/en/products/251423/ishares-msci-emerging-markets-imi-index-etf",
+        "kind": "document",
+        "publication_date": null,
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256_raw_page": "48a70ddd9e6d3788e070492cc2e0a997da44ca2813b37838a5b06c50fb18e415",
+        "sha256_extract": "dee35d1e6b26af1019a77442804b13b8a49190186d0f99c7e5f7257dde148a10"
+      },
+      {
+        "id": "doc:ishares_xbb",
+        "file": "docs/ishares_xbb.txt",
+        "url": "https://www.blackrock.com/ca/investors/en/products/239493/ishares-canadian-universe-bond-index-etf",
+        "kind": "document",
+        "publication_date": null,
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256_raw_page": "ec1e2a1c466fd9594e82e5fcb15c46f3d6f67a7e1a3c158173aff503414753b8",
+        "sha256_extract": "c8e03d87dc1bbed34534ef63887155cbf0901b40933d78d1367e2a98e6d9e86c"
+      },
+      {
+        "id": "doc:ishares_xsb",
+        "file": "docs/ishares_xsb.txt",
+        "url": "https://www.blackrock.com/ca/investors/en/products/239491/ishares-canadian-short-term-bond-index-etf",
+        "kind": "document",
+        "publication_date": null,
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256_raw_page": "35656cfd5bd14becc2e391e98530dd6f0e98e4f1b1ddbcf4e10e10e7641b6802",
+        "sha256_extract": "51e90daf10c8a5b61b4b039ebbf2236ccbc8bb3fcbd01c5fdccad44617139259"
+      },
+      {
+        "id": "doc:ishares_xhy",
+        "file": "docs/ishares_xhy.txt",
+        "url": "https://www.blackrock.com/ca/investors/en/products/239858/ishares-us-high-yield-bond-index-etf-cadhedged-fund",
+        "kind": "document",
+        "publication_date": null,
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256_raw_page": "d09ca66d34b1705b8489c2fe02f4b5d2fbd7e26f0bd2aec4374a4590ff3737f5",
+        "sha256_extract": "02936566948ec25fbbd6939b0d012e2b58165433766a246f078eb3ec39be60df"
+      },
+      {
+        "id": "doc:vanguard_vbal",
+        "file": "docs/vanguard_vbal.txt",
+        "url": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+        "kind": "document",
+        "publication_date": null,
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256_raw_page": "c7e4c3a7410869d6e67728c711200582b82b7931e2369888312f789e5faa2117",
+        "sha256_extract": "44a1f87db53c7d7ec2ef9d3db6c89c6f7400ba7492ca55e5b19501be7ff65ddf"
+      }
+    ]
+  },
+  "2026-09": {
+    "cutoff": "2026-09-30",
+    "entries": [
+      {
+        "id": "prices:XIC.TO",
+        "file": "prices/XIC.TO.json",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XIC.TO?period1=1787097600&period2=1790812800&interval=1d&events=div%7Csplit",
+        "kind": "prices",
+        "window": [
+          "2026-08-31",
+          "2026-09-30"
+        ],
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256": "d69e8a214db91f41df16649f66bd4b03a3d9d60cc3f27b086b719bba3da2f095"
+      },
+      {
+        "id": "prices:XUU.TO",
+        "file": "prices/XUU.TO.json",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XUU.TO?period1=1787097600&period2=1790812800&interval=1d&events=div%7Csplit",
+        "kind": "prices",
+        "window": [
+          "2026-08-31",
+          "2026-09-30"
+        ],
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256": "e390ecb59d592544d311cd8d7052d1f2e0c10d44ec3988816150f05902642fca"
+      },
+      {
+        "id": "prices:XEF.TO",
+        "file": "prices/XEF.TO.json",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XEF.TO?period1=1787097600&period2=1790812800&interval=1d&events=div%7Csplit",
+        "kind": "prices",
+        "window": [
+          "2026-08-31",
+          "2026-09-30"
+        ],
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256": "16a85060ba540c0c1ae28138675547022443eeacd040fc867c7659cf5364b54c"
+      },
+      {
+        "id": "prices:XEC.TO",
+        "file": "prices/XEC.TO.json",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XEC.TO?period1=1787097600&period2=1790812800&interval=1d&events=div%7Csplit",
+        "kind": "prices",
+        "window": [
+          "2026-08-31",
+          "2026-09-30"
+        ],
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256": "d711eb8ef521fd21eb815a114208c6ef2a800d239bae8a6ced6d7bd5231dfcf0"
+      },
+      {
+        "id": "prices:XBB.TO",
+        "file": "prices/XBB.TO.json",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XBB.TO?period1=1787097600&period2=1790812800&interval=1d&events=div%7Csplit",
+        "kind": "prices",
+        "window": [
+          "2026-08-31",
+          "2026-09-30"
+        ],
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256": "3d250b191d2824aebe5e092b2437442ccece99fd57af7b1ac2b3eb3a52ef90e2"
+      },
+      {
+        "id": "prices:XSB.TO",
+        "file": "prices/XSB.TO.json",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XSB.TO?period1=1787097600&period2=1790812800&interval=1d&events=div%7Csplit",
+        "kind": "prices",
+        "window": [
+          "2026-08-31",
+          "2026-09-30"
+        ],
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256": "e9fd99087d2cf853f2718bef214d7cdb49ebc49755d5e183cb69421f3c723975"
+      },
+      {
+        "id": "prices:XHY.TO",
+        "file": "prices/XHY.TO.json",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/XHY.TO?period1=1787097600&period2=1790812800&interval=1d&events=div%7Csplit",
+        "kind": "prices",
+        "window": [
+          "2026-08-31",
+          "2026-09-30"
+        ],
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256": "03d5d4afe1f2e0dc23db2ef8961ca700b6224c61f41de1cc5378251c7186adb6"
+      },
+      {
+        "id": "prices:VBAL.TO",
+        "file": "prices/VBAL.TO.json",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/VBAL.TO?period1=1787097600&period2=1790812800&interval=1d&events=div%7Csplit",
+        "kind": "prices",
+        "window": [
+          "2026-08-31",
+          "2026-09-30"
+        ],
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256": "74e129e8b636d47b1dec9b60d44c9ecd750e7dc269dece9d6b46d34f9fd297db"
+      },
+      {
+        "id": "macro:FXUSDCAD",
+        "file": "macro/FXUSDCAD.json",
+        "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2026-08-21&end_date=2026-09-30",
+        "kind": "macro",
+        "window": [
+          "2026-08-31",
+          "2026-09-30"
+        ],
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256": "f20df89bfe5178525a8534c0dbc41c202b8e92ff682aae5e708c8d32fe71ee16"
+      },
+      {
+        "id": "macro:BD.CDN.2YR.DQ.YLD",
+        "file": "macro/BD.CDN.2YR.DQ.YLD.json",
+        "url": "https://www.bankofcanada.ca/valet/observations/BD.CDN.2YR.DQ.YLD/json?start_date=2026-08-21&end_date=2026-09-30",
+        "kind": "macro",
+        "window": [
+          "2026-08-31",
+          "2026-09-30"
+        ],
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256": "b2e50a58d398e7770e014b61f3c2e4f572f247ec1d8040fb935f265caa51350d"
+      },
+      {
+        "id": "macro:BD.CDN.10YR.DQ.YLD",
+        "file": "macro/BD.CDN.10YR.DQ.YLD.json",
+        "url": "https://www.bankofcanada.ca/valet/observations/BD.CDN.10YR.DQ.YLD/json?start_date=2026-08-21&end_date=2026-09-30",
+        "kind": "macro",
+        "window": [
+          "2026-08-31",
+          "2026-09-30"
+        ],
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256": "4d7d839a3405a9e381a216af5d8f7e74b4a62472998195ff558a744e4d22f15b"
+      },
+      {
+        "id": "macro:V39079",
+        "file": "macro/V39079.json",
+        "url": "https://www.bankofcanada.ca/valet/observations/V39079/json?start_date=2026-08-21&end_date=2026-09-30",
+        "kind": "macro",
+        "window": [
+          "2026-08-31",
+          "2026-09-30"
+        ],
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256": "6462828d7b4755cfa446d04cd66ea7fc2fc7bb3a5695c89113d38d614b5f2d84"
+      },
+      {
+        "id": "doc:boc_2026_09_02",
+        "file": "docs/boc_2026_09_02.txt",
+        "url": "https://www.bankofcanada.ca/2026/09/fad-press-release-2026-09-02/",
+        "kind": "document",
+        "publication_date": "2026-09-02",
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256_raw_page": "56c373d01493834e34b8349b220eeae658bc1942fe541b2338b8af09e980dbcc",
+        "sha256_extract": "4ab4ce0b77535b0f328bc57a9accce22bb55b1411791a8044c2ac39c8ce7d687"
+      },
+      {
+        "id": "doc:fed_2026_09_16",
+        "file": "docs/fed_2026_09_16.txt",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+        "kind": "document",
+        "publication_date": "2026-09-16",
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256_raw_page": "b68b5c5334b65e2dffd95f7bc2a36e190d70170f9839dc76d486b054744095c7",
+        "sha256_extract": "3c5c918b7dafb39ad43bf783d9d5a35aec7263d8bd8cafd98a92fe580e2a226a"
+      },
+      {
+        "id": "doc:fomc_calendar",
+        "file": "docs/fomc_calendar.txt",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+        "kind": "document",
+        "publication_date": null,
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256_raw_page": "6e4da42a9038acd80aa96eee9725306d24768395d2189734e26c53f2819533d5",
+        "sha256_extract": "691e7e5f64d9732b23ba36ee2158d4e785f1e4c9c6e070bfacb83f94261cac69"
+      },
+      {
+        "id": "doc:ishares_xic",
+        "file": "docs/ishares_xic.txt",
+        "url": "https://www.blackrock.com/ca/investors/en/products/239837/ishares-sp-tsx-capped-composite-index-etf",
+        "kind": "document",
+        "publication_date": null,
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256_raw_page": "0bfde9b3b8d351e09b7f2340b683bcbdd7874c587545a85deafdbaec9898f83f",
+        "sha256_extract": "0ca9e5af5ce3bda137ef24362f3f37419bc4f5c7151a6edbfb1876179ab837cb"
+      },
+      {
+        "id": "doc:ishares_xuu",
+        "file": "docs/ishares_xuu.txt",
+        "url": "https://www.blackrock.com/ca/investors/en/products/272104/ishares-core-sp-us-total-market-index-etf",
+        "kind": "document",
+        "publication_date": null,
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256_raw_page": "f053db72bf66bde538dec79cdba70d9486f489c9350041c5bf1bbf398933f3c9",
+        "sha256_extract": "4f6a4e00768114186af72b9e46b5d207d89e7890e7262d79b44dad062a3a9587"
+      },
+      {
+        "id": "doc:ishares_xef",
+        "file": "docs/ishares_xef.txt",
+        "url": "https://www.blackrock.com/ca/investors/en/products/251421/ishares-msci-eafe-imi-index-etf",
+        "kind": "document",
+        "publication_date": null,
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256_raw_page": "70bab7ae63f22c03224660b56ec7f62c034063e2265fc88566f2885428c80fec",
+        "sha256_extract": "e852218e6a7f1e3a059c7b29805374dbaafc0aea70e618c2956ac7c75fad02cb"
+      },
+      {
+        "id": "doc:ishares_xec",
+        "file": "docs/ishares_xec.txt",
+        "url": "https://www.blackrock.com/ca/investors/en/products/251423/ishares-msci-emerging-markets-imi-index-etf",
+        "kind": "document",
+        "publication_date": null,
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256_raw_page": "c75a1b5b25c9db1887b471c64fc9b3f0de03146b89ce733175606f4a49e8aeed",
+        "sha256_extract": "dee35d1e6b26af1019a77442804b13b8a49190186d0f99c7e5f7257dde148a10"
+      },
+      {
+        "id": "doc:ishares_xbb",
+        "file": "docs/ishares_xbb.txt",
+        "url": "https://www.blackrock.com/ca/investors/en/products/239493/ishares-canadian-universe-bond-index-etf",
+        "kind": "document",
+        "publication_date": null,
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256_raw_page": "ec0e73677cf14dafd6d82a9174c713f341492b818bde353d5701749ab5e89e24",
+        "sha256_extract": "c8e03d87dc1bbed34534ef63887155cbf0901b40933d78d1367e2a98e6d9e86c"
+      },
+      {
+        "id": "doc:ishares_xsb",
+        "file": "docs/ishares_xsb.txt",
+        "url": "https://www.blackrock.com/ca/investors/en/products/239491/ishares-canadian-short-term-bond-index-etf",
+        "kind": "document",
+        "publication_date": null,
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256_raw_page": "7881d30adfcaef39c973d6079451e98a5303e5f13f8622fd654c3e39d827e250",
+        "sha256_extract": "51e90daf10c8a5b61b4b039ebbf2236ccbc8bb3fcbd01c5fdccad44617139259"
+      },
+      {
+        "id": "doc:ishares_xhy",
+        "file": "docs/ishares_xhy.txt",
+        "url": "https://www.blackrock.com/ca/investors/en/products/239858/ishares-us-high-yield-bond-index-etf-cadhedged-fund",
+        "kind": "document",
+        "publication_date": null,
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256_raw_page": "2595ef03ca3457710a9d5159b17c110a3e04ef863f5969e430ac263f77a45b50",
+        "sha256_extract": "02936566948ec25fbbd6939b0d012e2b58165433766a246f078eb3ec39be60df"
+      },
+      {
+        "id": "doc:vanguard_vbal",
+        "file": "docs/vanguard_vbal.txt",
+        "url": "https://www.vanguard.ca/en/product/etf/asset-allocation/9578/vanguard-balanced-etf-portfolio",
+        "kind": "document",
+        "publication_date": null,
+        "retrieved_at": "2026-10-14T23:55:56+00:00",
+        "sha256_raw_page": "cc8adc598603a3d39b303df3b3f237916ae949375fd3f6fd5fb9a0bb3da93d84",
+        "sha256_extract": "44a1f87db53c7d7ec2ef9d3db6c89c6f7400ba7492ca55e5b19501be7ff65ddf"
+      }
+    ]
+  }
+}

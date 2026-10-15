@@ -1,0 +1,117 @@
+{
+  "sources": [
+    "prices",
+    "boc_valet",
+    "boc_2026_07_15",
+    "fed_2026_07_29",
+    "fomc_calendar"
+  ],
+  "expects": {
+    "port_return": "pos",
+    "eq_contrib": "pos",
+    "fx_change": "neg",
+    "y2_change": "pos",
+    "y10_change": "pos",
+    "ret_XIC": "pos",
+    "ret_XUU": "pos",
+    "ret_XBB": "neg",
+    "decision": "Maintain",
+    "active_return": "pos"
+  },
+  "quotes": [
+    [
+      "boc_2026_07_15",
+      "contributed to the depreciation of the Canadian dollar"
+    ],
+    [
+      "boc_2026_07_15",
+      "important risks and uncertainties related to the war in the Middle East and US trade policy"
+    ],
+    [
+      "boc_2026_07_15",
+      "next scheduled date for announcing the overnight rate target is September 2, 2026"
+    ],
+    [
+      "fed_2026_07_29",
+      "9 – 3 vote"
+    ],
+    [
+      "fed_2026_07_29",
+      "who preferred to raise the target range for the federal funds rate by 1/4 percentage point"
+    ],
+    [
+      "fomc_calendar",
+      "September 15-16"
+    ],
+    [
+      "vanguard_vbal",
+      "equity (approximately 60%) and fixed income (approximately 40%)"
+    ]
+  ],
+  "headline": "Equities led and bonds stood still, so the balanced mix gained {port_abs} in August",
+  "takeaway_fact": "The hypothetical portfolio returned {port} against {bench} for the benchmark, a difference of {active}. The equity sleeve returned {eq_sleeve} and added {eq_contrib}; the bond sleeve returned {fi_sleeve} and added {fi_contrib}. [prices]",
+  "takeaway_view": "A small gap to a 60/40 benchmark is what two index-fund mixes should produce. Stocks did the work; bonds gave little cushion.",
+  "overview_note": "Total and price returns of ETF proxies, CAD. Yields and USD/CAD: Bank of Canada. [prices][boc_valet]",
+  "theme_title": "Theme: a firmer Canadian dollar trimmed foreign-equity gains",
+  "theme_evidence": [
+    "USD/CAD fell from {fx0} to {fx1} ({fx_chg}): a US dollar bought fewer Canadian dollars at month-end. [boc_valet]",
+    "Unhedged US, international and emerging-market ETFs are {foreign_w} of the portfolio and report in CAD after currency moves. XUU returned {ret_XUU}. [prices]",
+    "On July 15 the Bank of Canada linked earlier Canadian-dollar weakness to higher US than Canadian yields. These sources do not establish why the currency firmed in August. [boc_2026_07_15]"
+  ],
+  "theme_view": "Illustration only: if XUU's US assets earned about {fx_implied} in US dollars, the currency move took roughly {fx_drag} off the CAD return (indicative: ETF closes and daily-average rates differ in timing). Unhedged exposure is a deliberate diversifier: it adds return when the Canadian dollar weakens and trims it when it firms. One month does not argue for changing it.",
+  "equity_view": "Canada ({ret_XIC}) and emerging markets ({ret_XEC}) led. US ({ret_XUU}) and developed international ({ret_XEF}) gained less in CAD. The sleeve ended at {eq_end_w} of the portfolio, {eq_drift} above target.",
+  "fi_view": "Canada's 2-year yield rose {y2_chg} and the 10-year {y10_chg}, lowering bond prices. Distributions offset most of it: XBB returned {ret_XBB} against {pr_XBB} in price. The sleeve finished at {fi_sleeve}. [prices][boc_valet]",
+  "rebalance": "Maintain. The largest holding drift is {max_hold_drift} (band {hold_band}); the largest sleeve drift is {max_class_drift} (band {class_band}). No trade triggers, so drifted weights carry into September. A reset would trade {turnover} of the portfolio.",
+  "counter": "For acting: yields are rising, three FOMC members preferred a hike on July 29 [fed_2026_07_29], and bonds gave no cushion. For patience: drift is inside the bands and one month of yields is weak evidence of a trend.",
+  "risks": [
+    "Rates: further yield rises would hurt bonds. [boc_valet]",
+    "Currency: a firmer Canadian dollar trims the {foreign_w} unhedged foreign assets.",
+    "Policy and trade: Middle East war and US trade policy. [boc_2026_07_15]"
+  ],
+  "monitor": [
+    [
+      "Bank of Canada, Sep 2",
+      "[boc_2026_07_15]"
+    ],
+    [
+      "FOMC, Sep 15-16",
+      "[fed_2026_07_29][fomc_calendar]"
+    ],
+    [
+      "Canada yields and USD/CAD",
+      "[boc_valet]"
+    ]
+  ],
+  "methodology": "Total return: closing prices, distributions reinvested at the ex-date close, net of fund expenses. Weights are beginning-of-month, set to target at the {start_label} close. Contribution is weight times return, not formal attribution. Foreign-market ETFs are CAD-listed, so no currency conversion is applied.",
+  "slides": {
+    "s1_title": "Equities led and bonds stood still in August",
+    "s1_bullets": [
+      "Portfolio {port} versus benchmark {bench}, a difference of {active}",
+      "Equities added {eq_contrib}; bonds added {fi_contrib}",
+      "Theme: USD/CAD fell {fx_abs}, trimming gains on unhedged foreign equities"
+    ],
+    "s2_title": "Implications: maintain weights, drift is inside the bands",
+    "s2_bullets": [
+      "Equity: Canada {ret_XIC} and emerging markets {ret_XEC} led; sleeve ended at {eq_end_w}",
+      "Fixed income: 2-year yield {y2_chg}, 10-year {y10_chg}; sleeve flat at {fi_sleeve}",
+      "Decision: Maintain. Largest drift {max_hold_drift} against a {hold_band} band"
+    ],
+    "s3_title": "Risks and what to monitor",
+    "s3_risks": [
+      "Higher yields hurt bonds and can weigh on equities",
+      "Currency moves are two-way on {foreign_w} of the portfolio",
+      "Policy and trade uncertainty flagged by the Bank of Canada"
+    ],
+    "s3_monitor": [
+      "Bank of Canada, Sep 2",
+      "FOMC, Sep 15-16",
+      "Canada yields and USD/CAD",
+      "Weight drift versus bands"
+    ],
+    "notes": [
+      "Main message. In August 2026 the hypothetical 60/40 portfolio returned {port} in Canadian dollars and the benchmark returned {bench}. Equities contributed {eq_contrib} and bonds {fi_contrib}. The chart shows cumulative total return from the July 31 close. The theme is currency: USD/CAD fell from {fx0} to {fx1}, which trims what unhedged foreign equities earn for a Canadian investor. For a client: stocks rose, bonds were flat, and a stronger Canadian dollar took a little off foreign holdings. Sources are the exchange closes and Bank of Canada series listed in the report.",
+      "Portfolio implications. Canadian equities and emerging markets led. The equity sleeve ended at {eq_end_w} against a 60% target. Bond yields rose modestly, so price losses on the broad bond fund were mostly offset by distributions. The illustrative rule says maintain: the largest drift is {max_hold_drift}, inside the {hold_band} band. Resetting to target would trade {turnover} of the portfolio. This is an illustration of a rule, not advice for any client.",
+      "Risks and monitoring. Rates are the main risk: three FOMC members preferred a rise on July 29 and Canadian yields moved up in August. Currency risk is two-way. The Bank of Canada has flagged the Middle East war and US trade policy. Next events: the Bank of Canada decision on September 2 and the FOMC meeting on September 15 and 16. The counterargument is that a more defensive investor could act now; the case for patience is that drift is small and one month of yields is weak evidence."
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Hypothetical Canadian Balanced Portfolio",
+  "short_name": "Hypothetical portfolio",
+  "label": "Independent educational research sample",
+  "currency": "CAD",
+  "inception": "2026-07-31",
+  "start_value": 100000,
+  "equity_target": 0.60,
+  "fixed_income_target": 0.40,
+  "holdings": [
+    {"ticker": "XIC", "symbol": "XIC.TO", "name": "iShares Core S&P/TSX Capped Composite Index ETF", "short": "Canadian equity", "asset_class": "Equity", "weight": 0.20, "exposure": "Canada", "hedged": false,
+     "rationale": "Domestic core: broad Canadian large, mid and small caps with no currency translation.", "source": "ishares_xic"},
+    {"ticker": "XUU", "symbol": "XUU.TO", "name": "iShares Core S&P U.S. Total Market Index ETF", "short": "US equity", "asset_class": "Equity", "weight": 0.25, "exposure": "United States (USD, unhedged)", "hedged": false,
+     "rationale": "Largest equity market; unhedged so USD exposure diversifies Canadian-dollar risk.", "source": "ishares_xuu"},
+    {"ticker": "XEF", "symbol": "XEF.TO", "name": "iShares Core MSCI EAFE IMI Index ETF", "short": "Intl developed equity", "asset_class": "Equity", "weight": 0.10, "exposure": "Developed ex-North America (unhedged)", "hedged": false,
+     "rationale": "Europe, Australasia and Far East exposure that is not tied to the North American cycle.", "source": "ishares_xef"},
+    {"ticker": "XEC", "symbol": "XEC.TO", "name": "iShares Core MSCI Emerging Markets IMI Index ETF", "short": "Emerging markets equity", "asset_class": "Equity", "weight": 0.05, "exposure": "Emerging markets (unhedged)", "hedged": false,
+     "rationale": "Small strategic allocation to faster-growing, higher-volatility economies.", "source": "ishares_xec"},
+    {"ticker": "XBB", "symbol": "XBB.TO", "name": "iShares Core Canadian Universe Bond Index ETF", "short": "Canadian aggregate bonds", "asset_class": "Fixed income", "weight": 0.25, "exposure": "Canada, investment grade (CAD)", "hedged": false,
+     "rationale": "Core fixed income: government and investment-grade corporate bonds across maturities.", "source": "ishares_xbb"},
+    {"ticker": "XSB", "symbol": "XSB.TO", "name": "iShares Core Canadian Short Term Bond Index ETF", "short": "Canadian short-term bonds", "asset_class": "Fixed income", "weight": 0.10, "exposure": "Canada, short maturities (CAD)", "hedged": false,
+     "rationale": "Lower interest-rate sensitivity and a liquidity reserve inside the bond sleeve.", "source": "ishares_xsb"},
+    {"ticker": "XHY", "symbol": "XHY.TO", "name": "iShares U.S. High Yield Bond Index ETF (CAD-Hedged)", "short": "US high-yield bonds", "asset_class": "Fixed income", "weight": 0.05, "exposure": "US high-yield credit (CAD-hedged)", "hedged": true,
+     "rationale": "Small credit-risk income allocation; currency hedged so returns are not driven by USD/CAD.", "source": "ishares_xhy"}
+  ],
+  "benchmark": {
+    "ticker": "VBAL", "symbol": "VBAL.TO", "name": "Vanguard Balanced ETF Portfolio", "asset_class": "Balanced",
+    "rationale": "A different issuer's 60/40 global balanced fund of index ETFs, priced in CAD. It shares the portfolio's 60/40 risk budget but not its holdings or regional weights, so the comparison shows the effect of allocation choices.",
+    "source": "vanguard_vbal"
+  },
+  "rebalance": {
+    "convention": "Threshold review at each month-end close. If any asset-class weight is more than 2.0 pp from target, or any holding more than 1.5 pp from target, the portfolio is assumed rebalanced to target at that close. Otherwise the drifted weights carry into the next month. The first edition starts at target on the inception date.",
+    "class_band_pp": 2.0,
+    "holding_band_pp": 1.5,
+    "transaction_cost_bps": 0.0
+  },
+  "reconciliation_tolerance": 1e-9,
+  "editions": [
+    {"id": "2026-08", "label": "August 2026", "start": "2026-07-31", "cutoff": "2026-08-31"},
+    {"id": "2026-09", "label": "September 2026", "start": "2026-08-31", "cutoff": "2026-09-30"}
+  ],
+  "macro_series": [
+    {"id": "FXUSDCAD", "label": "USD/CAD (daily average)", "unit": "CAD per USD", "dp": 4, "kind": "level"},
+    {"id": "BD.CDN.2YR.DQ.YLD", "label": "Canada 2-year yield", "unit": "%", "dp": 2, "kind": "yield"},
+    {"id": "BD.CDN.10YR.DQ.YLD", "label": "Canada 10-year yield", "unit": "%", "dp": 2, "kind": "yield"},
+    {"id": "V39079", "label": "Bank of Canada overnight target", "unit": "%", "dp": 2, "kind": "yield"}
+  ]
+}
